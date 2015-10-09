@@ -1,0 +1,62 @@
+
+/* #HEADER
+================================================== */
+header {
+    background: #3279a1;
+}
+/* #NAVIGATION
+================================================== */
+
+#mainnav {
+    background: #333;
+    color: #fff;
+}
+#mainnav #menu {
+    display: none;
+    cursor: pointer;
+}
+#mainnav ul {
+    display: block;
+    margin: 0;
+}
+
+#mainnav ul li {
+    margin: 0;
+    list-style: none;
+    display: inline-block;
+}
+
+#mainnav ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: inline-block;
+}
+#mainnav ul li a:hover {
+    color: #000;
+    background: #aaa;
+}
+/* MEDIA QUERIES
+===================================== */
+
+@media all and (max-width: 767px) {
+  
+    #mainnav #menu {
+        display: block;
+    }
+
+    #mainnav ul {
+        display: none;
+        background: #666;
+        padding: 1em;
+        text-align: left;
+    }
+    #mainnav ul li {
+        display: block;
+    }
+
+    #mainnav ul li a {
+        display: block;
+        padding: .75em 1.5em .5em 1.5em;
+    }
+
+}
